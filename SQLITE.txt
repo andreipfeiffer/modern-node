@@ -1,0 +1,9 @@
+Test Files  75 passed
+     Tests  1711 passed
+  Duration  1007.36s (16.6 minutes)
+
+===================================
+
+Test Files  8 failed | 67 passed
+     Tests  65 failed | 1646 passed
+  Duration  37.69s
