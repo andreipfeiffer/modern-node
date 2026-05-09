@@ -31,6 +31,7 @@
 # v24
 
 - --env-file
+- strip types (run TS "natively")
 
 # v25
 
@@ -39,7 +40,4 @@
 
 # v26
 
-- Temporal API 🤞 (--experimental)
-  - https://github.com/nodejs/node/issues/57127
-  - https://github.com/nodejs/build/pull/4293
-  - https://ci.nodejs.org/job/node-test-commit-linux/69354/
+- Temporal API
