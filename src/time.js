@@ -21,12 +21,11 @@ languages.map((lang) => {
 });
 
 // languages.map((lang) => {
-//   const rtf = new Intl.RelativeTimeFormat(lang, {
+//   const val = new Intl.RelativeTimeFormat(lang, {
 //     style: "long",
-//     // numeric: "always",
-//   });
+//     numeric: "auto",
+//   }).format(1, "day");
 
-//   const val = rtf.format(1, "day");
 //   console.log(lang, val);
 // });
 
