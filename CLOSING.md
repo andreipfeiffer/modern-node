@@ -1,4 +1,4 @@
-<!-- 1. Do we need to keep up-to-date anymore? -->
+<!-- 1. Do we need to learn new ecosystem features anymore? -->
 
 <!-- 2. Will LLMs evolve along with the ecosystem? -->
 
