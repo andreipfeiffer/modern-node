@@ -13,9 +13,9 @@ languages.map((lang) => {
   //   timeStyle: "short",
   // }).format(today);
 
-  // const val = format(today, "EEEE, LLLL dd, yyyy hh:mm", {
-  //   // locale: lang_mapping[lang],
-  // });
+  const val = format(today, "EEEE, LLLL dd, yyyy hh:mm", {
+    // locale: lang_mapping[lang],
+  });
 
   // console.log(lang, val);
 });
