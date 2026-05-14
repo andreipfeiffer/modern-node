@@ -1,3 +1,3 @@
 // import "dotenv/config.js";
 
-console.log(`Hello ${process.env.EVENT_NAME} 🤘`);
+console.log(`All you need is ${process.env.WHAT_YOU_NEED}`);
