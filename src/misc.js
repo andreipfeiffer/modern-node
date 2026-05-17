@@ -1,5 +1,3 @@
-// import isEqual from "lodash-es/isEqual.js";
-// import cloneDeep from "lodash-es/cloneDeep.js";
 import { isDeepStrictEqual } from "node:util";
 
 // console.log("arrays  equal", isDeepStrictEqual([1, 2], [2, 1]));
