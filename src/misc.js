@@ -2,12 +2,25 @@ import isEqual from "lodash-es/isEqual.js";
 // import cloneDeep from "lodash-es/cloneDeep.js";
 // import { isDeepStrictEqual } from "node:util";
 
-console.log("arrays  equal", isEqual([1, 2], [2, 1]));
-console.log("objects equal", isEqual({ x: 1, y: 2 }, { y: 2, x: 1 }));
+console.log(" Arrays equal ->", isEqual([1, 2], [2, 1]));
+console.log("Objects equal ->", isEqual({ x: 1, y: 2 }, { y: 2, x: 1 }));
 
-// const obj = { list: [{ x: 1 }, { y: 2 }] };
-// const clone = cloneDeep(obj);
+// const obj = {
+//   list: [{ x: 1 }, { y: 2 }],
+// };
+// const clone = global.structuredClone(obj);
 
 // clone.list[0].x = 99;
 // console.log("obj  ", obj.list);
 // console.log("clone", clone.list);
+
+// const original_date = new Date();
+// const cloned_date = structuredClone(original_date);
+// const lodash_cloned_date = cloneDeep(original_date);
+// const json_cloned_date = JSON.parse(JSON.stringify(original_date));
+
+// console.table([
+//   { method: "cloned_date", value: cloned_date },
+//   { method: "lodash_cloned_date", value: lodash_cloned_date },
+//   { method: "json_cloned_date", value: json_cloned_date },
+// ]);
