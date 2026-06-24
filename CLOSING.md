@@ -2,4 +2,4 @@
 
 <!-- 2. Will LLMs evolve along with the ecosystem? -->
 
-<!-- [andreipfeiffer.dev/blog] -->
+<!-- [http://andreipfeiffer.dev/blog] -->
